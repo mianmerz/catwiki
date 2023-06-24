@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <header>
             <div className="container-fluid px-5 py-3">
-                <Logo />
+                    <Logo />
             </div>
         </header>
     )

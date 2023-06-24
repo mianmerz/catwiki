@@ -1,9 +1,9 @@
-import logo from '../assets/CatwikiLogo.svg'
+import { CatWikiLogo } from '../assets/CatwikiLogo'
 
 export const Logo = ({ href = "/", color = "black" }) => {
     return (
         <a href={href} target="_blank" rel="noreferrer">
-            <img src={logo} className="logo" alt="Catwiki logo" />
+            <CatWikiLogo fill={color} />
         </a>
     )
 }
