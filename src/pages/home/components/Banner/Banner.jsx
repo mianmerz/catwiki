@@ -1,5 +1,5 @@
-import { Logo } from "../../../../components/Logo"
-import './Banner.scss'
+ import { Logo } from "../../../../components";
+import './Banner.scss';
 
 export const Banner = () => {
   return (
