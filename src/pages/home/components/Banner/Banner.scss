@@ -7,5 +7,15 @@
         background-size: cover;
         border-radius: 42px 42px 0 0;
 
+        .info {
+            width: 45%;
+
+            .subtitle {
+                font-size: 24px;
+                font-weight: 500;
+                color: #fff;
+                margin-top: 1rem;
+            }
+        }
     }
 }
