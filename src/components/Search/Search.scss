@@ -1,0 +1,19 @@
+.search-component {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 50px;
+
+    .form-control {
+        margin: 0 auto;
+        border: 0;
+    }
+
+    .input-group-text {
+        border: 0;
+        background-color: transparent;
+    }
+}
