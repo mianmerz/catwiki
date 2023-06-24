@@ -1,9 +1,9 @@
+import { Header } from "./shared/Header"
 
 const App = () => {
-
   return (
     <>
-      <h1>sdaosdnjaisdjas</h1>
+      <Header />
     </>
   )
 }
