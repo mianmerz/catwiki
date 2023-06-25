@@ -29,9 +29,9 @@ export const BoxBreeds = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col d-flex gap-5 w-100 ">
+                    <div className="col d-flex gap-5">
                         {
-                            breeds.map((breed, index) => <CatCard key={index} />)
+                            breeds.map((breed, index) => <CatCard key={index} breed={breed} />)
                         }
                     </div>
                 </div>
