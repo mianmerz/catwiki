@@ -1,5 +1,7 @@
 import "./Info.scss"
 
+import { Pictures } from "../Pictures/Pictures"
+
 export const Info = () => {
     return (
         <section className="info-section container">
@@ -22,7 +24,7 @@ export const Info = () => {
                 </div>
 
                 <div className="col">
-                    asd
+                    <Pictures />
                 </div>
             </div>
         </section>
