@@ -3,7 +3,7 @@ import './Banner.scss';
 
 export const Banner = () => {
   return (
-    <section className="banner-component container-fluid px-5" >
+    <section className="banner-section container-fluid px-5" >
       <div className="content p-5">
 
         <section className="info px-5">

@@ -5,7 +5,7 @@ export const BoxBreeds = () => {
     const breeds = [1, 2, 3, 4];
 
     return (
-        <section className="box-breads-component container-fluid px-5" >
+        <section className="box-breads-section container-fluid px-5" >
             <div className="content p-5">
 
                 <div className="row">
@@ -22,7 +22,7 @@ export const BoxBreeds = () => {
 
                     <div className="col py-5 d-flex justify-content-end" >
                         <button type="button" className="btn btn-link d-flex align-items-end gap-2">
-                            <span>SEE MORE</span>
+                            <span className='fw-semibold'>SEE MORE</span>
                             <span className="material-symbols-outlined">trending_flat</span>
                         </button>
                     </div>
