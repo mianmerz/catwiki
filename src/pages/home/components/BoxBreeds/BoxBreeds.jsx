@@ -1,6 +1,9 @@
+import { CatCard } from '../../../../components/CatCard/CatCard';
 import './BoxBreads.scss';
 
 export const BoxBreeds = () => {
+    const breeds = [1, 2, 3, 4];
+
     return (
         <section className="box-breads-component container-fluid px-5" >
             <div className="content p-5">
@@ -12,7 +15,6 @@ export const BoxBreeds = () => {
                     </div>
                 </div>
 
-
                 <div className="row align-items-end">
                     <div className="col py-5">
                         <h1 className="text-start title ">66+ Breeds For you to discover</h1>
@@ -23,6 +25,14 @@ export const BoxBreeds = () => {
                             <span>SEE MORE</span>
                             <span className="material-symbols-outlined">trending_flat</span>
                         </button>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col d-flex gap-5 w-100 ">
+                        {
+                            breeds.map((breed, index) => <CatCard key={index} />)
+                        }
                     </div>
                 </div>
 
